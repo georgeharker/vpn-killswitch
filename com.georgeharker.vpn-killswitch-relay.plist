@@ -8,7 +8,8 @@
 	<array>
 		<string>/usr/bin/env</string>
         <string>/usr/local/bin/vpn-killswitch.sh</string>
-        <string>--relay</string>
+        <string>--tailscale=escape</string>
+        <string>--icloud_relay=escape</string>
 	</array>
     <key>StandardOutPath</key>
     <string>/var/log/com.georgeharker.vpn-killswitch.log</string>
